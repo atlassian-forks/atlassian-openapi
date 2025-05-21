@@ -1,8 +1,11 @@
 {
-  "name": "atlassian-openapi",
+  "name": "@atlassian/atlassian-openapi",
   "version": "1.0.21",
   "description": "This is a package that lets you deal with the Atlassian flavour of the OpenAPI 3.0 specification.",
   "repository": "github:robertmassaioli/atlassian-openapi",
+  "publishConfig": {
+    "registry": "https://packages.atlassian.com/api/npm/npm-public/"
+  },
   "keywords": [
     "atlassian",
     "openapi",
